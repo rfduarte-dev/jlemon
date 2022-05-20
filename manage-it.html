@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/bootstrap-grid.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+    <title>Manage it App - João Lemon Designer</title>
+  </head>
+
+  <body>
+    <!-- Trigger -->
+    <div class="jl-trigger-topbar"></div>
+
+    <!-- Border -->
+    <div class="border-top-left"></div>
+    <div class="border-botton-right"></div>
+
+    <!-- Preloader -->
+    <div class="jl-preloader">
+      <div class="jl-preloader-inner">
+        <img src="images/lemon-loader.svg" alt="" class="jl-mar-bottom-15" />
+        <p class="jl-text-light jl-mar-top-15">
+          Aguarde um pouquinho ... Estou preparando uma limonada
+        </p>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="jl-overlay jl-toggle-gallery"></div>
+    <div class="jl-gallery-frame-container">
+      <div class="jl-gallery-frame-inner">
+        <button class="jl-toggle-gallery jl-close-gallery jl-btn-close-gallery">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <img
+          src="images/frame-smartphone.png"
+          alt=""
+          class="jl-gallery-frame"
+        />
+
+        <div class="jl-skeleton-load">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <img src="" alt="" class="jl-gallery-frame-image" data-index="" />
+
+        <div class="jl-items-next-prev">
+          <div class="jl-item-prev">
+            <ion-icon name="caret-back-outline"></ion-icon>
+          </div>
+          <div class="jl-items-counter">
+            <p>
+              <span class="jl-current-slide">01</span>
+              /
+              <span class="jl-total-slide">05</span>
+            </p>
+          </div>
+          <div class="jl-item-next">
+            <ion-icon name="caret-forward-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jl-menu-overlay jl-toggle-menu"></div>
+
+    <!-- Header -->
+    <header class="jl-topbar">
+      <div class="jl-logo jl-logo-big">
+        <img src="images/logo.svg" alt="Logo João Lemon Ux/ Ui Designer" />
+      </div>
+      <nav class="jl-menu">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+
+    <!-- Menu Mobile -->
+    <button class="jl-btn-menu-mob jl-toggle-menu">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <nav class="jl-menu-mob jl-menu-is-closed">
+      <a href="./index.html">home</a>
+      <a href="./portfolio.html">portfolio</a>
+      <a href="./sobre.html">Sobre</a>
+    </nav>
+
+    <!--Contact -->
+    <div class="jl-contact-info jl-bg-black jl-text-light">
+      <div class="jl-contact-info-inner">
+        <h2 class="jl-title jl-text-green">Contato</h2>
+        <p>jlhello@gmail.com</p>
+        <p>+55 (11) 9 8765 4321</p>
+        <div class="jl-social-links">
+          <a href="#" class="jl-social">
+            <img src="images/icon-instagram.svg" alt="Instagram" />
+          </a>
+          <a href="#" class="jl-social">
+            <img src="images/icon-twitter.svg" alt="Twitter" />
+          </a>
+          <a href="#" class="jl-social">
+            <img src="images/icon-dribbble.svg" alt="Drible" />
+          </a>
+        </div>
+      </div>
+      <div class="jl-corner"></div>
+    </div>
+    <button class="jl-btn-contact"></button>
+
+    <!-- Wrapper -->
+    <div class="jl-page-wrapper jl-post">
+      <!-- Banner Hero -->
+      <section class="container-fluid jl-hero">
+        <div class="container">
+          <div class="row jl-text-light jl-hero-inner align-items-center">
+            <div class="col-sm-12 p-0 p-sm-3">
+              <div class="jl-hero-inner-content">
+                <div class="row">
+                  <div class="col-sm-12 z-index">
+                    <h1 class="jl-title jl-title-medium">
+                      Manage It! Aplicativo Mobile
+                    </h1>
+                  </div>
+                  <div class="col-sm-12 | col-lg-3 z-index">
+                    <div class="jl-project-stats">
+                      <p>
+                        <span class="jl-text-green">Projeto: </span>Aplicativo
+                        Mobile
+                      </p>
+                      <p>
+                        <span class="jl-text-green">Cliente: </span>Manage It
+                      </p>
+                      <p>
+                        <span class="jl-text-green">Serviço: </span>UX, UI e
+                        Prototipagem
+                      </p>
+                      <a
+                        class="jl-btn jl-btn-medium jl-btn-green jl-mar-top-15"
+                      >
+                        visitar site<ion-icon
+                          name="arrow-redo-sharp"
+                        ></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-9 z-index">
+                    <div class="jl-project-description">
+                      <p>
+                        O aplicativo
+                        <span class="jl-text-green">Manage It! </span>
+                        consectetur, adipisicing elit. Sint cumque eos
+                        doloremque, fugiat eligendi facilis incidunt earum vel
+                        laborum saepe quod ad exercitationem voluptates
+                        doloribus beatae voluptatibus odit, nesciunt qui.
+                      </p>
+                      <br />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Sint cumque eos doloremque, fugiat eligendi
+                        facilis incidunt earum vel laborum saepe quod ad
+                        exercitationem voluptates doloribus beatae voluptatibus
+                        odit, nesciunt qui.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info -->
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <section class="jl-post-section">
+                <div class="row">
+                  <div
+                    class="col-sm-12 col-md-8 offset-md-2 jl-text-center jl-text-light jl-mar-bottom-30"
+                    data-aos="fade-up"
+                  >
+                    <h2
+                      class="jl-title jl-title-medium jl-text-green jl-mar-bottom-30"
+                    >
+                      O desafio
+                    </h2>
+                    <p class="jl-mar-bottom-30">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Dolorem, similique dolorum ad sint atque quos corrupti
+                      quaerat ea, distinctio facilis doloremque doloribus fuga
+                      blanditiis, consequatur excepturi ex. Beatae, neque
+                      reprehenderit. Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Dolorem, similique dolorum ad sint atque
+                      quos corrupti quaerat ea
+                    </p>
+                    <p class="jl-mar-bottom-30">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Dolorem, similique dolorum ad sint atque quos corrupti
+                      quaerat ea, distinctio facilis doloremque doloribus fuga
+                      blanditiis, consequatur excepturi ex. Beatae, neque
+                      reprehenderit.
+                    </p>
+                  </div>
+                  <div
+                    class="col-sm-12"
+                    data-rellax-speed="2"
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      src="images/processo-1.png"
+                      alt="Manage It app - processo parte 1"
+                      title="Manage It app - processo parte 1"
+                      class="jl-img-responsive jl-mar-bottom-30"
+                    />
+                  </div>
+                  <div
+                    class="col-sm-12 col-md-6 jl-text-light jl-mar-top-30 jl-text-center-mob"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                  >
+                    <h2
+                      class="jl-title jl-title-medium jl-text-green jl-mar-bottom-30"
+                    >
+                      Gerando Ideias
+                    </h2>
+                    <p class="jl-mar-bottom-30">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Dolorem, similique dolorum ad sint atque quos corrupti
+                      quaerat ea, distinctio facilis doloremque doloribus fuga
+                      blanditiis, consequatur excepturi ex. Beatae, neque
+                      reprehenderit. Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Dolorem, similique dolorum ad sint atque
+                      quos corrupti quaerat ea
+                    </p>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Dolorem, similique dolorum ad sint atque quos corrupti
+                      quaerat ea, distinctio facilis doloremque doloribus fuga
+                      blanditiis, consequatur excepturi ex. Beatae, neque
+                      reprehenderit.
+                    </p>
+                  </div>
+                  <div
+                    class="col-sm-12 col-md-6 jl-mar-top-30"
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      src="images/processo-2.png"
+                      alt="Manage It app - processo parte 1"
+                      title="Manage It app - processo parte 1"
+                      class="jl-img-responsive jl-mar-bottom-30"
+                    />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Pre gallery -->
+      <section
+        class="jl-post-section jl-pre-gallery"
+        style="background-color: #3b427a"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+              <img
+                src="images/previa-1.png"
+                alt="imagem de previa do app"
+                title="imagem de previa do app"
+                class="jl-img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery -->
+      <section class="jl-post-section jl-post-gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="1"
+                  data-src="images/app-1.png"
+                  src="images/app-1-low.gif"
+                  alt="Tela do App Manege It 1"
+                  title="Tela do App Manege It 1"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="2"
+                  data-src="images/app-2.png"
+                  src="images/app-2-low.gif"
+                  alt="Tela do App Manege It 2"
+                  title="Tela do App Manege It 2"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="3"
+                  data-src="images/app-3.png"
+                  src="images/app-3-low.gif"
+                  alt="Tela do App Manege It 3"
+                  title="Tela do App Manege It 3"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="4"
+                  data-src="images/app-4.png"
+                  src="images/app-4-low.gif"
+                  alt="Tela do App Manege It 4"
+                  title="Tela do App Manege It 4"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="5"
+                  data-src="images/app-5.png"
+                  src="images/app-5-low.gif"
+                  alt="Tela do App Manege It 5"
+                  title="Tela do App Manege It 5"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="6"
+                  data-src="images/app-6.png"
+                  src="images/app-6-low.gif"
+                  alt="Tela do App Manege It 6"
+                  title="Tela do App Manege It 6"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="7"
+                  data-src="images/app-7.png"
+                  src="images/app-7-low.gif"
+                  alt="Tela do App Manege It 7"
+                  title="Tela do App Manege It 7"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="8"
+                  data-src="images/app-8.png"
+                  src="images/app-8-low.gif"
+                  alt="Tela do App Manege It 8"
+                  title="Tela do App Manege It 8"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="9"
+                  data-src="images/app-9.png"
+                  src="images/app-9-low.gif"
+                  alt="Tela do App Manege It 9"
+                  title="Tela do App Manege It 9"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="10"
+                  data-src="images/app-10.png"
+                  src="images/app-10-low.gif"
+                  alt="Tela do App Manege It 10"
+                  title="Tela do App Manege It 10"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="11"
+                  data-src="images/app-11.png"
+                  src="images/app-11-low.gif"
+                  alt="Tela do App Manege It 11"
+                  title="Tela do App Manege It 11"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+            <div class="col-6 |col-sm-6 | col-md-4 | col-lg-3 jl-mar-bottom-30">
+              <div class="jl-thumb-box">
+                <img
+                  data-item="12"
+                  data-src="images/app-12.png"
+                  src="images/app-12-low.gif"
+                  alt="Tela do App Manege It 12"
+                  title="Tela do App Manege It 12"
+                  class="jl-img-responsive jl-thumb-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Script -->
+
+    <!-- Ion Icon - biblioteca de icones -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Way points -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/shortcuts/inview.min.js"></script>
+
+    <!-- AOS Animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Rellax Paralax Library -->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+    <!-- Iniciando Bibliotecas -->
+    <script>
+      AOS.init()
+      var rellax = new Rellax('.rellax', {
+        center: true
+      })
+    </script>
+
+    <!-- JS -->
+    <script src="js/manage-it.js" type="text/javascript"></script>
+    <script src="js/gallery.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>

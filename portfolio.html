@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/bootstrap-grid.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+    <title>Portfolio - João Lemon UX / UI Designer</title>
+  </head>
+
+  <body>
+    <!-- Trigger -->
+    <div class="jl-trigger-topbar"></div>
+
+    <!-- Border -->
+    <div class="border-top-left"></div>
+    <div class="border-botton-right"></div>
+
+    <!-- Preloader -->
+    <div class="jl-preloader">
+      <div class="jl-preloader-inner">
+        <img src="images/lemon-loader.svg" alt="" class="jl-mar-bottom-15" />
+        <p class="jl-text-light jl-mar-top-15">
+          Aguarde um pouquinho ... Estou preparando uma limonada
+        </p>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="jl-topbar">
+      <div class="jl-logo jl-logo-big">
+        <img src="images/logo.svg" alt="Logo João Lemon Ux/ Ui Designer" />
+      </div>
+      <nav class="jl-menu">
+        <a href="./index.html">Home</a>
+        <a href="./portfolio.html">portfolio</a>
+        <a href="./sobre.html">Sobre</a>
+      </nav>
+    </header>
+
+    <!-- Menu Mobile -->
+    <button class="jl-btn-menu-mob jl-toggle-menu">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <nav class="jl-menu-mob jl-menu-is-closed">
+      <a href="./index.html">home</a>
+      <a href="./portfolio.html">portfolio</a>
+      <a href="./sobre.html">Sobre</a>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="jl-overlay jl-toggle-modal"></div>
+    <div class="jl-menu-overlay jl-toggle-menu"></div>
+
+    <!--Contact -->
+    <div class="jl-contact-info jl-bg-black jl-text-light">
+      <div class="jl-contact-info-inner">
+        <h2 class="jl-title jl-text-green">Contato</h2>
+        <p>jlhello@gmail.com</p>
+        <p>+55 (11) 9 8765 4321</p>
+        <div class="jl-social-links">
+          <a href="#" class="jl-social">
+            <img src="images/icon-instagram.svg" alt="Instagram" />
+          </a>
+          <a href="#" class="jl-social">
+            <img src="images/icon-twitter.svg" alt="Twitter" />
+          </a>
+          <a href="#" class="jl-social">
+            <img src="images/icon-dribbble.svg" alt="Drible" />
+          </a>
+        </div>
+      </div>
+      <div class="jl-corner"></div>
+    </div>
+    <button class="jl-btn-contact"></button>
+
+    <!-- Wrapper -->
+    <div class="jl-page-wrapper">
+      <section
+        class="cotaniner-fluid jl-section-offset-top"
+        id="jl-project-list-section"
+      >
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1">
+            <ul class="jl-portfolio-list">
+              <li class="jl-portfolio-item" data-slide="01">
+                <div class="row">
+                  <div class="col-sm-12 | col-lg-6 | order-2 order-lg-1">
+                    <div
+                      class="jl-portfolio-item-info jl-text-light"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-delay="300"
+                    >
+                      <h1 class="jl-title jl-title-large jl-mar-bottom-15">
+                        Startap Rocketz Website
+                      </h1>
+                      <p class="jl-mar-bottom-30">
+                        UX, UI e WordPress para aceleradora de startups.
+                      </p>
+                      <a
+                        href="./manage-it.html"
+                        class="jl-btn jl-btn-large jl-btn-green"
+                      >
+                        Ver Projeto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-6 | order-1 order-lg-2">
+                    <div class="jl-portfolio-item-thumb">
+                      <div
+                        class="jl-portfolio-item-box d-none d-lg-block"
+                        data-aos="fade-left"
+                        data-aos-offset="15"
+                      ></div>
+                      <img
+                        src="images/thumb-1.jpg"
+                        alt="Startup Rocketz"
+                        title="Startup Rocketz"
+                        data-aos="flip-left"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      />
+                      <a
+                        href="#"
+                        class="jl-btn jl-btn-medium jl-btn-dark"
+                        data-aos="fade-left"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      >
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="jl-portfolio-item" data-slide="02">
+                <div class="row">
+                  <div class="col-sm-12 | col-lg-5 | order-2 order-lg-1">
+                    <div
+                      class="jl-portfolio-item-info jl-text-light"
+                      data-aos="fade-left"
+                      data-aos-offset="300"
+                      data-aos-delay="300"
+                    >
+                      <h1 class="jl-title jl-title-large jl-mar-bottom-15">
+                        Manage It! <br data-aos="flip-left" />Aplicativo Mobile
+                      </h1>
+                      <p class="jl-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo mobile.
+                      </p>
+
+                      <a
+                        href="./manage-it.html"
+                        class="jl-btn jl-btn-large jl-btn-green"
+                      >
+                        Ver Projeto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-6 | order-1 order-lg-2">
+                    <div class="jl-portfolio-item-thumb">
+                      <div
+                        class="jl-portfolio-item-box d-none d-lg-block"
+                        data-aos="fade-right"
+                        data-aos-offset="15"
+                      ></div>
+                      <img
+                        src="images/thumb-2.jpg"
+                        alt="Startup Rocketz"
+                        title="Startup Rocketz"
+                        data-aos="flip-left"
+                        data-aos-offset="300"
+                        data-aos-delay="300"
+                      />
+                      <a
+                        class="jl-btn jl-btn-medium jl-btn-dark"
+                        data-aos="fade-right"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      >
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="jl-portfolio-item" data-slide="03">
+                <div class="row">
+                  <div class="col-sm-12 | col-lg-6 | order-2 order-lg-1">
+                    <div
+                      class="jl-portfolio-item-info jl-text-light"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-delay="300"
+                    >
+                      <h1 class="jl-title jl-title-large jl-mar-bottom-15">
+                        Vinyassa! <br />Aplicativo Mobile
+                      </h1>
+                      <p class="jl-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo mobile.
+                      </p>
+                      <a
+                        href="./manage-it.html"
+                        class="jl-btn jl-btn-large jl-btn-green"
+                      >
+                        Ver Projeto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-6 | order-1 order-lg-2">
+                    <div class="jl-portfolio-item-thumb">
+                      <div
+                        class="jl-portfolio-item-box d-none d-lg-block"
+                        data-aos="fade-left"
+                        data-aos-offset="15"
+                      ></div>
+                      <img
+                        src="images/thumb-3.jpg"
+                        alt="Startup Rocketz"
+                        title="Startup Rocketz"
+                        data-aos="flip-left"
+                        data-aos-offset="300"
+                        data-aos-delay="300"
+                      />
+                      <a
+                        class="jl-btn jl-btn-medium jl-btn-dark"
+                        data-aos="fade-left"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      >
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="jl-portfolio-item" data-slide="04">
+                <div class="row">
+                  <div class="col-sm-12 | col-lg-5 | order-2 order-lg-1">
+                    <div
+                      class="jl-portfolio-item-info jl-text-light"
+                      data-aos="fade-left"
+                      data-aos-offset="300"
+                      data-aos-delay="300"
+                    >
+                      <h1 class="jl-title jl-title-large jl-mar-bottom-15">
+                        Conteúdo é Rei! <br />Website para <br />agência.
+                      </h1>
+                      <p class="jl-mar-bottom-30">
+                        Website para agência de conteúdo digital.
+                      </p>
+                      <a
+                        href="./manage-it.html"
+                        class="jl-btn jl-btn-large jl-btn-green"
+                      >
+                        Ver Projeto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-6 | order-1 order-lg-2">
+                    <div class="jl-portfolio-item-thumb">
+                      <div
+                        class="jl-portfolio-item-box d-none d-lg-block"
+                        data-aos="fade-right"
+                        data-aos-offset="15"
+                      ></div>
+                      <img
+                        src="images/thumb-4.jpg"
+                        alt="Startup Rocketz"
+                        title="Startup Rocketz"
+                        data-aos="flip-left"
+                        data-aos-offset="300"
+                        data-aos-delay="300"
+                      />
+                      <a
+                        class="jl-btn jl-btn-medium jl-btn-dark"
+                        data-aos="fade-right"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      >
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="jl-portfolio-item" data-slide="05">
+                <div class="row">
+                  <div class="col-sm-12 | col-lg-6 | order-2 order-lg-1">
+                    <div
+                      class="jl-portfolio-item-info jl-text-light"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-delay="300"
+                    >
+                      <h1 class="jl-title jl-title-large jl-mar-bottom-15">
+                        Controle Total. <br />
+                        Web App!
+                      </h1>
+                      <p class="jl-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo mobile.
+                      </p>
+                      <a
+                        href="./manage-it.html"
+                        class="jl-btn jl-btn-large jl-btn-green"
+                      >
+                        Ver Projeto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 | col-lg-6 | order-1 order-lg-2">
+                    <div class="jl-portfolio-item-thumb">
+                      <div
+                        class="jl-portfolio-item-box d-none d-lg-block"
+                        data-aos="fade-left"
+                        data-aos-offset="0"
+                      ></div>
+                      <img
+                        src="images/thumb-5.jpg"
+                        alt="Startup Rocketz"
+                        title="Startup Rocketz"
+                        data-aos="flip-left"
+                        data-aos-offset="300"
+                        data-aos-delay="300"
+                      />
+                      <a
+                        class="jl-btn jl-btn-medium jl-btn-dark"
+                        data-aos="fade-left"
+                        data-aos-offset="100"
+                        data-aos-delay="100"
+                      >
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Script -->
+
+    <!-- Way points -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
+
+    <!-- Ion Icon - biblioteca de icones -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- AOS Animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+
+    <!-- JS -->
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
