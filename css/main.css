@@ -167,8 +167,8 @@ a {
 }
 
 .border-top-left::before {
-  width: 30px;
   height: 100vh;
+  width: 30px;
 }
 .border-top-left::after {
   width: 100vw;
@@ -176,7 +176,7 @@ a {
 }
 
 .border-botton-right {
-  bottom: 0;
+  bottom: 300px;
   right: 0;
 }
 .border-botton-right::before,
@@ -190,8 +190,8 @@ a {
 }
 
 .border-botton-right::before {
-  width: 30px;
   height: 100vh;
+  width: 30px;
 }
 .border-botton-right::after {
   width: 100vw;
@@ -864,7 +864,7 @@ a {
   /* Detalhes */
 
   .jl-hero {
-    background-image: url('/images/hero.png');
+    background-image: url('../images/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1130,7 +1130,6 @@ a {
     border-radius: 19px;
   }
   .jl-btn-large {
-    height: 45px;
     padding: 12px 35px;
     font-size: 14px;
     border-radius: 23px;
