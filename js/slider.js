@@ -20,7 +20,11 @@ var nextItem = document.querySelector('.jl-item-next')
 var sliderPos = 0
 
 //Capturando larguras individuais
-var containerWidth = sliderContainer.parentElement.offsetWidth
+if (window.innerWidth < 992) {
+  var containerWidth = sliderContainer.parentElement.offsetWidth - 30
+} else {
+  var containerWidth = sliderContainer.parentElement.offsetWidth
+}
 
 //Passando larguras dinânmicas
 sliderContainer.style.width = containerWidth + 'px'
